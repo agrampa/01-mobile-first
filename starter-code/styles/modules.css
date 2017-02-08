@@ -10,6 +10,11 @@
 
 /* TODO: Add styles for the icon-menu class. It should be bigger, and off to the right. */
 
+.icon-menu {
+  font-size: 2.5em;
+  float: right;
+}
+
 .main-nav {
   padding: 0.1em;
 }
@@ -28,6 +33,7 @@
   font-size: 1.5em;
   padding: .5em .2em;
   border-bottom: 1px solid #ccc;
+
 }
 
 #filters {
@@ -57,7 +63,7 @@
   .main-nav ul {
     visibility: hidden;
   }
-  
+
   .main-nav:hover ul {
     display: inline-block;
     visibility: visible;

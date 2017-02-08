@@ -24,6 +24,7 @@
 /* REVIEW: Add styles so the filters lay out better on desktop. */
 @media only screen and (min-width: 640px) {
   .heading-group-h1 {
+    clear: both;
     padding: .1em .1em .1em 2em;
     float: none;
   }
@@ -37,17 +38,21 @@
     width: 20em;
     display: inline;
   }
-  
+
   .icon-menu {
     visibility: hidden;
   }
-  
+
   .main-nav ul {
-    display: inline-block;
+    display: block;
   }
-  
+
+  .main-nav li {
+    display: inline-block;
+    clear: left;
+  }
+
   /*.main-nav:hover ul {
     display: inline-block;
   }*/
 }
-
