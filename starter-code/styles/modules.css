@@ -15,15 +15,13 @@
 }
 
 .main-nav ul {
-  display: none;
+  display: inline;
   padding: 0;
   list-style: none;
   clear: both;
 }
 
-.main-nav:hover ul {
-  display: block;
-}
+
 
 .main-nav li {
   margin-right: .4em;
@@ -55,3 +53,13 @@
          - Main should be all on one row, with padding spaced better for a larger screen.
          - Just, ya know, try to make it look good! */
 /* @media only screen... */
+@media only screen and (max-width: 639px) {
+  .main-nav ul {
+    visibility: hidden;
+  }
+  
+  .main-nav:hover ul {
+    display: inline-block;
+    visibility: visible;
+  }
+}

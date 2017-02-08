@@ -37,4 +37,17 @@
     width: 20em;
     display: inline;
   }
+  
+  .icon-menu {
+    visibility: hidden;
+  }
+  
+  .main-nav ul {
+    display: inline-block;
+  }
+  
+  /*.main-nav:hover ul {
+    display: inline-block;
+  }*/
 }
+
